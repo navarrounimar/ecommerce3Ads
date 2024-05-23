@@ -14,7 +14,7 @@ namespace Ecommerce3Ads
             builder.Services.AddControllers();
 
             builder.Services.AddDbContext<DataContext,DataContext>();
-            builder.Services.AddScoped<DataContext>();
+            //builder.Services.AddScoped<DataContext>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

@@ -14,5 +14,6 @@ namespace Ecommerce3Ads.Context
 
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Produto> Produto { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
     }
 }
